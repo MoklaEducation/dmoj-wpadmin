@@ -45,7 +45,7 @@ jobs:
                   return None
 
           request = urllib.request.Request(
-              "https://git.home.arpa/api/v1/repos/MoklaEducation/lab/actions/workflows/dmoj-pr-candidate.yml/dispatches",
+              "https://git.home.arpa/api/v1/repos/MoklaEducation/lab/actions/workflows/code-pr-candidate.yml/dispatches",
               data=json.dumps({"ref": os.environ["LAB_RECIPE_REF"],
                                "inputs": {"repository": repository, "number": number,
                                           "base": base, "head": head}}).encode(),
