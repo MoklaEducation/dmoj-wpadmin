@@ -9,6 +9,15 @@ Django WP Admin
 .. image:: https://raw.github.com/barszczmm/django-wpadmin/master/docs/images/django-wpadmin.png
 
 
+Source ownership
+----------------
+
+This repository owns its package declarations and remains a pinned Git
+dependency. Site requirement locks and Gitlink updates consume reviewed source
+commits. There is no source-to-lab deployment callback, and no image build or
+publication task is required here.
+
+
 Features
 --------
 * WordPress look and feel
